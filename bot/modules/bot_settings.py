@@ -23,27 +23,27 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'FORCE_BOT_PM': False,
                   'UPDATE_PACKAGES': 'False',
                   'UPSTREAM_BRANCH': 'master',
-                  'UPSTREAM_REPO': 'https://github.com/weebzone/WZML',
+                  'UPSTREAM_REPO': 'https://github.com/foevil/Mirror',
                   'STATUS_UPDATE_INTERVAL': 10,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
-                  'TGH_THUMB': 'https://te.legra.ph/file/3325f4053e8d68eab07b5.jpg',
+                  'TGH_THUMB': 'https://te.legra.ph/file/77487bd45e7e5b7a5c751.jpg',
                   'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/krn_adhikari',
+                  'START_BTN1_URL': 'https://t.me/invisiblemahn',
                   'START_BTN2_NAME': 'Support Group',
-                  'START_BTN2_URL': 'https://t.me/WeebZone_updates',
+                  'START_BTN2_URL': 'https://t.me/formirrorupdates',
                   'AUTHOR_NAME': 'WZML',
-                  'AUTHOR_URL': 'https://t.me/WeebZone_updates',
-                  'TITLE_NAME': 'WeebZone',
-                  'GD_INFO': 'Uploaded by WeebZone Mirror Bot',
-                  'CREDIT_NAME': 'WeebZone',
+                  'AUTHOR_URL': 'https://t.me/formirrorupdates',
+                  'TITLE_NAME': 'FOMIRROR',
+                  'GD_INFO': 'Uploaded by FO Mirror Bot',
+                  'CREDIT_NAME': 'FOMIRROR',
                   'NAME_FONT': 'code',
                   'CAPTION_FONT': 'code',
                   'FINISHED_PROGRESS_STR': '█',
                   'UN_FINISHED_PROGRESS_STR': '▒',
                   'MULTI_WORKING_PROGRESS_STR': '▁ ▂ ▃ ▄ ▅ ▆ ▇'.split(' '),
-                  'CHANNEL_USERNAME': 'WeebZone_updates',
+                  'CHANNEL_USERNAME': 'formirrorupdates',
                   'FSUB_CHANNEL_ID': '-1001512307861',
                   'IMAGE_URL': 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg',
                   'TIMEZONE': 'Asia/Kolkata',
@@ -355,7 +355,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://github.com/weebzone/WZML'
+        UPSTREAM_REPO = 'https://github.com/foevil/Mirror'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
@@ -426,7 +426,7 @@ def load_config():
     START_BTN2_URL = environ.get('START_BTN2_URL', '')
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:   
         START_BTN2_NAME = 'Support Group'
-        START_BTN2_URL = 'https://t.me/WeebZone_updates'
+        START_BTN2_URL = 'https://t.me/formirrorupdates'
 
     BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
     BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -508,19 +508,19 @@ def load_config():
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/formirrorupdates'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
-        TITLE_NAME = 'WeebZone'
+        TITLE_NAME = 'FOMIRROR'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:   
-        GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+        GD_INFO = 'Uploaded by FO Mirror Bot'
 
     CREDIT_NAME = environ.get('CREDIT_NAME', '')
     if len(CREDIT_NAME) == 0:   
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = 'FOMIRROR'
 
     NAME_FONT = environ.get('NAME_FONT', '')
     if len(NAME_FONT) == 0: 
@@ -575,7 +575,7 @@ def load_config():
 
     CHANNEL_USERNAME = environ.get('CHANNEL_USERNAME', '')
     if len(CHANNEL_USERNAME) == 0:
-        CHANNEL_USERNAME = 'WeebZone_updates'
+        CHANNEL_USERNAME = 'formirrorupdates'
 
     FSUB_CHANNEL_ID = environ.get('FSUB_CHANNEL_ID', '')
     if len(FSUB_CHANNEL_ID) == 0:
